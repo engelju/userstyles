@@ -1,0 +1,12 @@
+@-moz-document domain("medium.com") {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.ml {
+    font-family: "Inter", sans-serif !important;
+    line-height: 1.5 !important;
+}
+
+.fz {
+    max-width: 60% !important;
+}
+}
