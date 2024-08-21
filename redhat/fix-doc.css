@@ -1,0 +1,19 @@
+@-moz-document url-prefix("https://docs.openshift.com/container-platform/") {
+div#toc {
+    display: none !important;
+}
+
+.main {
+    margin-top: 130px;
+    border-left: 0px solid #e7e7e7;
+    margin-left: 315px;
+/*     margin-right: 5%; */
+    width: 75%;
+}
+}
+
+@-moz-document url-prefix("https://access.redhat.com/documentation/en-us/") {
+.j-superdoc__content-wrapper {
+    max-width: 100% !important;
+}
+}
