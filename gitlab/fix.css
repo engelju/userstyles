@@ -1,0 +1,53 @@
+@-moz-document domain("gitlab.net") {
+  
+/* expand breadcrums and hide unnessecary shit */
+li.expander {
+    display: none !important;
+}
+
+/* .gl-display-none\! {
+    display: list-item !important;
+} */
+
+.gl-display-none\!:not(.gl-lg-display-table-cell\!) {
+    display: list-item !important;
+}
+
+.well-segment.blob-auxiliary-viewer.file-owner-content.gl-display-flex.gl-justify-content-space-between.gl-align-items-center {
+    display: none !important;
+}
+
+.tree-holder .nav-block {
+    margin-top: 1rem;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+}
+
+/* banish truncated branch names */
+.gl-text-truncate {
+    overflow: visible;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* adjust font in editor */
+.file-content.code pre .line, .file-content.code .line-numbers a {
+    font-size: 0.9rem;
+    line-height: 1.35rem  !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+.job-log, .file-content.code, .diff-table.code, table.code, .code {
+    font-family: "Fira Code", monospace !important;
+}
+
+.file-content.code pre code {
+    font-family: "Fira Code", monospace !important;
+}
+
+.container-limited {
+    max-width: 85%;
+}
+}
