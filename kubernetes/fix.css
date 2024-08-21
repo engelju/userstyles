@@ -1,0 +1,18 @@
+@-moz-document url-prefix("https://kubernetes.io/docs/") {
+.col-xl-8 {
+    flex: 0 0 90% !important;
+    max-width: 90% !important;
+}
+
+.d-none.d-xl-block.td-toc.d-print-none.col-xl-4 {
+    display: none !important;
+}
+
+.td-max-width-on-larger-screens, .td-content>pre, .td-content>.highlight, .td-content>.lead, .td-content>h1, .td-content>h2, .td-content>ul, .td-content>ol, .td-content>p, .td-content>blockquote, .td-content>dl dd, .td-content .footnotes, .td-content>.alert {
+    max-width: 100% !important;
+}
+
+.announcement-main {
+    display: none !important;
+}
+}
