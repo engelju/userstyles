@@ -1,0 +1,5 @@
+@-moz-document domain("www.rtr.ch"), domain("www.srf.ch") {
+.article {
+    max-width: 1000px;
+}
+}
