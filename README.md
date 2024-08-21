@@ -1,5 +1,7 @@
 # userstyles
 
+extension: [stylus](https://github.com/openstyles/stylus)
+
 sites:
 - [argo](https://github.com/engelju/userstyles/tree/main/argo)
 - [chatgpt](https://github.com/engelju/userstyles/tree/main/chatgpt)
