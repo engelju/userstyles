@@ -1,0 +1,9 @@
+@-moz-document url-prefix("https://vector.dev/docs/") {
+.lg\:col-span-11 {
+    grid-column: span 11 / span 11;
+}
+.md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+}
