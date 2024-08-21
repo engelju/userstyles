@@ -1,6 +1,9 @@
 @-moz-document domain("chatgpt.com") {
-@media (min-width: 1280px){
-.xl\:max-w-\[48rem\] {
-    max-width: 148rem !important;
-}}
+
+    /* make input field bigger */
+    @media (min-width: 1280px){
+    .xl\:max-w-\[48rem\] {
+        max-width: 148rem !important;
+    }}
+    
 }
